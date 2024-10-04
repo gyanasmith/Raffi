@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body header {
+    text-align: center;
+    color: Blue;
+    background-color: purple;
+    padding: 2rem;
+}
+nav {
+    background-color: red;
+}
+
+section {
+    column-count: 3;
+    background-image: linear-gradient(purple, blue);
+    padding: 2rem;
+}
+section img {
+    width: 50%;
+    padding: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-image: linear-gradient(white, purple, blue, red, black,white, purple, blue, red, black, white, purple, blue, red, black);
+    padding: 8rem;
+    text-align: center;
+    color: lightblue;
+}
